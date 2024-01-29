@@ -1,0 +1,19 @@
+#ifndef POSTILAATIKO1
+#define POSTILAATIKO1
+#include <iostream>
+using namespace std;
+
+class postilaatikko1
+{
+public:
+    postilaatikko1();
+    lisaaPosti(int m);
+    otaPosti(int m);
+    asetaNimi(string n);
+    string n;
+
+private:
+     int maara;
+};
+
+#endif // POSTILAATIKO1
