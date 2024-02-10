@@ -3,16 +3,15 @@
 kerros::kerros()
 {
     cout << "Kerros luotu" << endl;
-
 }
 
 kerros::~kerros()
 {
-
 }
 
 void kerros::maaritaAsunnot()
 {
+
     cout << "Maaritetaan 4kpl kerroksen asuntoja" << endl;
     as1.maarita(as1.asukasMaara, as1.neliot);
     as2.maarita(as2.asukasMaara, as2.neliot);

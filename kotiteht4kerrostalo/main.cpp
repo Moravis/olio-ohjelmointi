@@ -8,19 +8,18 @@ using namespace std;
 
 int main()
 {
-    asunto asuntoOlio;
+    /*asunto asuntoOlio;
     katutaso katuOlio;
     kerros kerrosOlio;
-    kerrostalo taloOlio;
 
     //asuntoOlio.maarita(2,100);
     //asuntoOlio.laskeKulutus(1);
+    */
+    kerrostalo talo;
+    //katuOlio.maaritaAsunnot();
+    //kerrosOlio.maaritaAsunnot();
 
-    katuOlio.maaritaAsunnot();
-    kerrosOlio.maaritaAsunnot();
 
-
-    taloOlio.laskeKulutus(1);
-
+    talo.laskeKulutus(1);
     return 0;
 }
