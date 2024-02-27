@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    connect(ui->N0,SIGNAL(clicked(bool)),this,SLOT(numberClickedHandler()));
     connect(ui->N1,SIGNAL(clicked(bool)),this,SLOT(numberClickedHandler()));
     connect(ui->N2,SIGNAL(clicked(bool)),this,SLOT(numberClickedHandler()));
     connect(ui->N3,SIGNAL(clicked(bool)),this,SLOT(numberClickedHandler()));
